@@ -12,7 +12,6 @@ window.setTimeout(() => {
       let newOrders = JSON.parse(json);
       console.log("new:" + newOrders);
       if (newOrders !== orders) {
-        location.reload();
       }
     });
 }, 5000);
