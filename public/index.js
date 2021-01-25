@@ -11,10 +11,8 @@ window.setTimeout(() => {
     .then((json) => {
       let newOrders = JSON.parse(json);
       console.log(newOrders);
-      if (newOrders != orders) {
-        console.log("roznia sie");
-      } else {
-        console.log("takie same");
+      if (JSON.stringify(newOrders) !== JSON.stringify(orders)) {
+        location.reload();
       }
     });
 }, 5000);
