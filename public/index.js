@@ -1,7 +1,17 @@
 const ordersToDoList = document.querySelector(".orders-to-do-list");
 //every 5 secs checks for new orders
+let orders;
 window.setTimeout(() => {
-  location.reload();
+  fetch(getOrdersApi)
+    .then((res) => {
+      return res.json();
+    })
+    .then((json) => {
+      let newOrders = JSON.parse(json);
+      if (newOrders !== orders) {
+        location.reload();
+      }
+    });
 }, 5000);
 fetch("./menu")
   .then((res) => {
@@ -18,7 +28,7 @@ const renderOrders = () => {
       return res.json();
     })
     .then((json) => {
-      const orders = JSON.parse(json);
+      orders = JSON.parse(json);
 
       for (let i = 0; i < orders.length; i++) {
         const wrapper = document.createElement("div");

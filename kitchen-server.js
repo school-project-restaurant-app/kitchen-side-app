@@ -28,7 +28,7 @@ app.get("/orders", (req, res) => {
 app.post("/send-order", (req, res) => {
   let current = new Date();
   let currentTime = "";
-  currentTime += current.getHours();
+  currentTime += current.getHours() + 1;
   currentTime += ":";
   console.log(current.getMinutes());
   if (current.getMinutes() > 9) {
