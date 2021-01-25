@@ -3,7 +3,7 @@ const ordersToDoList = document.querySelector(".orders-to-do-list");
 window.setTimeout(() => {
   location.reload();
 }, 5000);
-fetch("http://localhost:3000/menu")
+fetch("./menu")
   .then((res) => {
     return res.json();
   })
@@ -12,7 +12,7 @@ fetch("http://localhost:3000/menu")
   });
 
 const renderOrders = () => {
-  const getOrdersApi = "http://localhost:3000/orders";
+  const getOrdersApi = "./orders";
   fetch(getOrdersApi)
     .then((res) => {
       return res.json();
@@ -49,7 +49,7 @@ const renderOrders = () => {
         buttonDiscard.setAttribute("class", "order-discard-btn");
         buttonDiscard.innerText = "❌";
         buttonDiscard.addEventListener("click", () => {
-          fetch(`http://localhost:3000/delete-order`, {
+          fetch(`./delete-order`, {
             headers: {
               "Content-Type": "application/json",
             },
