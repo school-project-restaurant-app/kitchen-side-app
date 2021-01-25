@@ -3,14 +3,13 @@ const ordersToDoList = document.querySelector(".orders-to-do-list");
 let orders;
 const getOrdersApi = "./orders";
 
-window.setTimeout(() => {
+window.setInterval(() => {
   fetch(getOrdersApi)
     .then((res) => {
       return res.json();
     })
     .then((json) => {
       let newOrders = JSON.parse(json);
-      console.log(newOrders);
       if (JSON.stringify(newOrders) !== JSON.stringify(orders)) {
         location.reload();
       }
