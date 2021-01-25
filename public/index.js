@@ -1,6 +1,8 @@
 const ordersToDoList = document.querySelector(".orders-to-do-list");
 //every 5 secs checks for new orders
 let orders;
+const getOrdersApi = "./orders";
+
 window.setTimeout(() => {
   fetch(getOrdersApi)
     .then((res) => {
@@ -22,7 +24,6 @@ fetch("./menu")
   });
 
 const renderOrders = () => {
-  const getOrdersApi = "./orders";
   fetch(getOrdersApi)
     .then((res) => {
       return res.json();
