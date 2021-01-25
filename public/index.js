@@ -10,7 +10,7 @@ window.setTimeout(() => {
     })
     .then((json) => {
       let newOrders = JSON.parse(json);
-      console.log("new:" + newOrders);
+      console.log(newOrders);
       if (newOrders !== orders) {
       }
     });
