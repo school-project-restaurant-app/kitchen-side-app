@@ -1,13 +1,11 @@
 const { json, response } = require("express");
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 const DataStore = require("nedb");
 app.use(express.json());
 app.listen();
-app.listen(port, () => {
-  console.log(`Server is listening at: http://localhost:${port}`);
-});
+app.listen(port, () => {});
 const dishesList = new DataStore("dishesList.db");
 const ordersList = new DataStore("ordersList.db");
 dishesList.loadDatabase();
