@@ -10,6 +10,7 @@ window.setTimeout(() => {
     })
     .then((json) => {
       let newOrders = JSON.parse(json);
+      console.log("new:" + newOrders);
       if (newOrders !== orders) {
         location.reload();
       }
@@ -30,6 +31,7 @@ const renderOrders = () => {
     })
     .then((json) => {
       orders = JSON.parse(json);
+      console.log(orders);
 
       for (let i = 0; i < orders.length; i++) {
         const wrapper = document.createElement("div");
