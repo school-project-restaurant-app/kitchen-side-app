@@ -11,7 +11,10 @@ window.setTimeout(() => {
     .then((json) => {
       let newOrders = JSON.parse(json);
       console.log(newOrders);
-      if (newOrders !== orders) {
+      if (newOrders != orders) {
+        console.log("roznia sie");
+      } else {
+        console.log("takie same");
       }
     });
 }, 5000);
