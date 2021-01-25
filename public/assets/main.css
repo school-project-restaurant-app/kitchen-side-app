@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: rgb(228, 228, 228);
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: 1px 2px 5px black;
+  margin-bottom: 50px;
+  background: rgb(255, 204, 0);
+  background-image: url("./imgs/header-image-ingridients.jpg");
+  background-position: center;
+  height: 100px;
+  border-bottom: #ffcc00 4px solid;
+  box-shadow: black 0 5px 25px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.title {
+  line-height: 100px;
+}
+.order-element-wrapper {
+  margin-top: 25px;
+}
+.order-element {
+  display: inline-block;
+  border: 3px #ffcc00 solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 2px 5px 10px black;
+}
+
+.order-element ul li {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.order-state-btns {
+  width: 50px;
+  display: inline-block;
+
+  width: 50px;
+
+  width: 50px;
+
+  outline: none;
+  color: green;
+  font-weight: 700;
+  border: #ffcc00 2px solid;
+
+  box-shadow: 1px 3px 8px black;
+  margin-right: 4px;
+}
+.order-discard-btn {
+  width: 50px;
+  background-color: rgb(228, 228, 228);
+  outline: none;
+  font-weight: 700;
+  border: #ffcc00 2px solid;
+  box-shadow: 1px 3px 8px black;
+  margin-left: 4px;
+}
+footer {
+  height: 25px;
+  width: 100%;
+  background-color: #ffcc00;
+  color: white;
+  text-shadow: black 2px 2px 3px;
+  text-align: center;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -1px 25px black;
+}

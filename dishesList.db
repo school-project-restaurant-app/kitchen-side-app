@@ -1,0 +1,34 @@
+{"name":"Kotlet schabowy","price":1999,"category":"dish","_id":"18mhSIsVV2eiUJys"}
+{"name":"Butelka wody","price":199,"category":"drink","_id":"6IkuG0wmQvOj09Kj"}
+{"name":"Sałatka z tuńczykiem","price":1500,"category":"appetizer","_id":"7mMQyGLFWpELw5JL"}
+{"name":"Kwaśnica góralska","price":1300,"category":"soup","_id":"8rbDc6HG1Ky5PWBa"}
+{"name":"Placki po węgiersku","price":2199,"category":"dish","_id":"BTg95rnbRR7qUVyp"}
+{"name":"Łosoś na frytkach","price":3500,"category":"dish","_id":"CyE7zxYxIitPFyV4"}
+{"name":"Piwo z sokiem","price":299,"category":"alcohol","_id":"EwsgcN4L4oZbNmLO"}
+{"name":"Coca-Cola","price":599,"category":"drink","_id":"Gr8SGLBpqwr0Au7S"}
+{"name":"Butelka Coca-Coli","price":399,"category":"drink","_id":"Hj1Fmz7949gwXqOy"}
+{"name":"Wino","price":599,"category":"alcohol","_id":"JEz2F7s7MUkMkA4c"}
+{"name":"Naleśniki ze szpinakiem","price":2500,"category":"dish","_id":"KXKysHSaZGz4ZIFy"}
+{"name":"Sos koperkowo-śmietanowy","price":300,"category":"extras","_id":"M7ThCOE2P8sgbyGw"}
+{"name":"Ziemniaki zapiekane","price":899,"category":"extras","_id":"P9VUDZGK7GkJKgk3"}
+{"name":"Przystawka al''a Italia","price":1599,"category":"appetizer","_id":"RFebC6rjeMlwFFLl"}
+{"name":"Butelka Mirindy","price":399,"category":"drink","_id":"RGe8kYOlJ5s3FMrM"}
+{"name":"Pierogi z mięsem","price":2000,"category":"dish","_id":"SB0Q5jRMcUBBUf2j"}
+{"name":"Przystawka z sardynką","price":1099,"category":"appetizer","_id":"ScLx3aS90ZXIqltX"}
+{"name":"Łosoś na frytkach","price":3500,"category":"dish","_id":"UaGQLChJIPuOjcTt"}
+{"name":"Seteczka wódeczki","price":1000,"category":"alcohol","_id":"VjvpeKJNJBNbuWJo"}
+{"name":"Tatar z łososia","price":4000,"category":"dish","_id":"WG959QUv7Rn6GTiT"}
+{"name":"Przekąska grecka","price":1299,"category":"appetizer","_id":"cTOfhQVNT6BOEYZE"}
+{"name":"Zalewajka szefa kuchni","price":1599,"category":"soup","_id":"efca0wOvpVpcx7NO"}
+{"name":"Pink Moet 120ml","price":10000,"category":"alcohol","_id":"fPKrVlR3uj5ux82Z"}
+{"name":"Barszcz czerwony","price":1499,"category":"soup","_id":"i0Og1MAolBJ28q9g"}
+{"name":"Kotlet de volaile","price":2099,"category":"dish","_id":"jNhjjlv4madsUseX"}
+{"name":"Tajemniczy kociołek","price":1999,"category":"alcohol","_id":"jUS01e1PLWluWYJi"}
+{"name":"Zupa pomidorowa","price":1399,"category":"soup","_id":"mhXZZueWfq3vFOzP"}
+{"name":"Żurek staropolski","price":1000,"category":"soup","_id":"nEitcS4RZ2FIPgti"}
+{"name":"Łosoś na frytkach","price":3500,"category":"dish","_id":"q4Rv56a1yZrpHx6e"}
+{"name":"Śledzik na raz","price":1300,"category":"appetizer","_id":"rvElHyjbP0tR0sEt"}
+{"name":"Tatar wołowy","price":3700,"category":"dish","_id":"sVIBuhAIhoIRJyKu"}
+{"name":"Ziemniaki z koperkiem","price":599,"category":"extras","_id":"sviAus6ySLTTSP4b"}
+{"name":"Rosół z makaronem","price":1200,"category":"soup","_id":"wW8km4kRZsIhNXj7"}
+{"name":"Frytki","price":699,"category":"extras","_id":"zIjqQmsDPhhik72A"}
